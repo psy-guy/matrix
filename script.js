@@ -40,7 +40,7 @@ function draw() {
     ctx.fillStyle = getColor();
     ctx.fillRect(0, 0, c.width, c.height);
     
-    ctx.fillStyle = "#BBB"; // grey text
+    ctx.fillStyle = "#00ff00"; // green text
     ctx.font = font_size + "px arial";
     
     // looping over drops
@@ -59,7 +59,5 @@ function draw() {
         drops[i]++;
     }
 }
-
-
 
 setInterval(draw, 33);
